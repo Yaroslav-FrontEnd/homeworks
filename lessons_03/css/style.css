@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+/* Колір шрфта всієї сторінки */
+/* * {
+   color:aqua
+} */
+
+/* Гра в пріорітетність */
+
+/* айді */
+#freedom {
+   color:darkgreen;
+}
+
+/* клас */
+.freedom_ukraine {
+   color: #2000ff;
+}
+
+/* заголовок h1*/
+.freedom_ukraine h1 span{
+   color: #ffa600;
+}
+
+/* текст - абзац - пешка */
+.freedom_ukraine p {
+   color: #ff0000;
+} 
+
+/* ----------------------------------------------------------------- */
+
+/* усі класи де є словосполучення ind */
+[class*="ind"] {
+   color:darkblue;
+}
+
+/* звернення до подвійного класу */
+.sovereignty.sovereignty_text {
+   color: #ff00ff;
+}
+
+/* звернення до двух різних класів */
+.coat_symbols, 
+.flag_symbols{
+   color: #fa124a
+}
+
+/* звернення до .flag_symbols котрий є дочірним в класі symbols_ukraine */
+.symbols_ukraine
+.national_anthem {
+   color: #0095ff;
+}
+
+/* всі об'єкти що є в <h3> але батьківський це #айді*/
+#currency h3 {
+   color: #00ffc8;
+}
+
+/* всі об'єкти що є в <h2> але батьківський .class*/
+.new_ukraine h2  {
+   color: #9bff05;
+}
+
+/* звертаємось до першого рівня дочірного тега*/
+.symbols_ukraine> h2 {
+   color: #004bd7;
+}
+
+/* звертаємось до наступного об'єкта котрий ми вказали .*/
+.currency_text + .currency_text_two {
+   color: #d900ff;
+}
+
+/* Шукає наступний об'єкт котрий ми вказали але якщо між об'єктами щось є то воно не спрацює*/
+.new_ukraine ~ .last_revolution{
+   color: #00bbff;
+}
