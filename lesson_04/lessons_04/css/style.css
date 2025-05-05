@@ -1,0 +1,142 @@
+@import url(reset.css);
+
+body {
+   font-family: 'Montserrat', serif;
+   font-size: 50px;
+   line-height: 1.5;
+   color: #f200ae;
+}
+
+/* ----------------------------Навігація сайту------------------------------------- */
+
+.headline_main {
+   font-size: 40px;
+   font-weight: 700;
+}
+
+.headline {
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.nav_link {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+/* ----------------------------Перша стаття------------------------------------- */
+/* підключення шрифтів  */
+/* варіант 1 для статті з фігми*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.subtitle h3 {
+   font-family: Poppins, sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.5;
+   color: #ff0000;
+}
+
+.text {
+   font-family: Poppins, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   color: aqua;
+}
+
+/* варіант 2 для статті з фігми*/
+
+/* @font-face {
+   src: url(../fonts/BanderaProMedium/BanderaPro.woff2) format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+.subtitle h3 {
+   font-family: BanderaPro, sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 1.5;
+   color: #ff0000;
+}
+.text {
+   font-family: BanderaPro, sans-serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   color: lab(78.17% 16.63 81.1);
+} */
+
+
+/* ----------------------------Друга стаття------------------------------------- */
+
+.article {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #ff002f;
+}
+
+/* варіант 1 для статті з gpt*/
+@import url(https://fonts.googleapis.com/css?family=Sarina:regular);
+
+.cossacks_title {
+   text-transform: uppercase;
+   letter-spacing: 20px;
+   
+}
+
+.cossacks_text_one {
+   font-family: Sarina, sans-serif;
+   text-decoration: overline;
+   text-transform: capitalize;
+   white-space: normal;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #7700ff;
+}  
+
+/* варіант 2 для статті з gpt*/
+@font-face {
+   font-family: cardina, sans-serif;
+   src: url(../fonts/cardina.woff2) format('woff2');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+.cossacks_text_two {
+   font-family: cardina, sans-serif;
+   text-decoration: line-through;
+   text-transform: lowercase;
+   font-size: 30px;
+   font-weight: 300;
+   line-height: 1.7;
+   color: #aeff00;
+}
+
+/* варіант 3 для статті з gpt*/
+@font-face {
+   font-family: Nastup-Basic, sans-serif;
+   src: url(../fonts/Nastup-Soft/Nastup-Basic.woff2) format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+.cossacks_text_three {
+   font-family: Nastup-Basic, sans-serif;
+   text-shadow: -7px 7px 7px #f2ff00;
+   word-spacing: 5px;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1;
+   color: #001aff;
+}
